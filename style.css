@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 8px;
+    background: #000000;
+}
+.header h1{
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.header h1 span{
+    color: orangered;
+}
+.header input[type="text"], input[type="passWord"]{
+    padding: 4px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.header #btn{
+    font-size: 12px;
+    border: none;
+    background: none;
+    color: white;
+    outline: 1px solid white;
+    padding: 2px;
+    cursor: pointer;
+}
+.icn-header{
+    display: flex;
+    padding: 8px;
+}
+.icn-header .fas{
+    font-size: 36px;
+    color: rgb(199, 48, 2);
+}
+.icn-header h1{
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 2);
+}
+.fas{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.signup{
+    width: 20%;
+    height: 300px;
+    padding: 12px;
+    
+    margin: 8% auto;
+    background: #000000;
+    border-radius: 4px;
+    outline: 1px solid rgb(0, 0, 0);
+}
+.signup p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signup .Signup{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: white;
+    text-align: center;
+}
+.signup .Signup input[type="text"], input[type="passwd"]{
+    padding: 8px;
+    outline: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.signup .Signup button{
+    border: none;
+    border-radius: 2px;
+    background: none;
+    outline: 1px solid rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 4px;
+    margin-top: 8%;
+    margin-left: 36%;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    width: 28%;
+}
+.signup .Signup h2{
+    text-align: center;
+    color: darkgrey;
+    text-decoration: underline;
+    font-size: 18x;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 8%;
+}
